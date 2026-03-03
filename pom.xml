@@ -12,12 +12,6 @@
 		<relativePath/>
 	</parent>
 
-	<properties>
-	    <maven.compiler.source>17</maven.compiler.source>
-	    <maven.compiler.target>17</maven.compiler.target>
-	    <maven.compiler.release>17</maven.compiler.release>
-	</properties>
-
 	<groupId>com.ecommerce</groupId>
 	<artifactId>ecommerce-backend</artifactId>
 	<version>1.0.0</version>
@@ -25,6 +19,9 @@
 	<description>Monolithic E-commerce Backend Application</description>
 
 	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+	    <maven.compiler.target>17</maven.compiler.target>
+	    <maven.compiler.release>17</maven.compiler.release>
 		<java.version>17</java.version>
 		<mapstruct.version>1.5.5.Final</mapstruct.version>
 		<springdoc.version>2.2.0</springdoc.version>
